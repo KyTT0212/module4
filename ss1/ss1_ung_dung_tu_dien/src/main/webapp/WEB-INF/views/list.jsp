@@ -1,3 +1,4 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%--
   Created by IntelliJ IDEA.
   User: ACER
@@ -11,7 +12,15 @@
     <title>Title</title>
 </head>
 <body>
-<h1>---${key}---</h1>
-<h1> Nghĩa là: ${word}</h1>
+<c:choose>
+    <c:when test="${key.equalsIgnoreCase(key.en)}">
+        <h1>---${key}---</h1>
+        <h1> Nghĩa là: ${word}</h1>
+    </c:when>
+    <c:otherwise>
+        không tìm thấy
+    </c:otherwise>
+</c:choose>
+
 </body>
 </html>
