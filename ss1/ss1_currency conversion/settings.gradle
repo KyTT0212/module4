@@ -1,1 +1,15 @@
 rootProject.name = "ss1"
+
+
+//    @RequestMapping(value = "/",method = RequestMethod.GET)
+//    public String showResult( Model model){
+//        model.addAttribute("price",new Price());
+//        return "index";
+//    }
+//
+//    @RequestMapping(value = "/viewPrice",method = RequestMethod.POST)
+//    public String doShowResult(@ModelAttribute("price") Price price,Model model){
+//        price = 23*price;
+//        model.addAttribute("price",price);
+//        return "list";
+//    }

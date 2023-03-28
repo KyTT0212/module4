@@ -1,8 +1,8 @@
 package com.example.controller;
 
 import com.example.model.Dictionary;
-import com.example.service.DictionaryService;
 import com.example.service.IDictionaryService;
+import com.example.service.impl.DictionaryService;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;

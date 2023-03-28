@@ -1,13 +1,14 @@
-package com.example.repository;
+package com.example.repository.impl;
 
 import com.example.model.Dictionary;
+import com.example.repository.IDictionaryRepository;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class DictionaryRepository implements IDictionaryRepository{
+public class DictionaryRepository implements IDictionaryRepository {
     private static Map<Integer, Dictionary> dictionaries = new HashMap<>();
     static {
         dictionaries.put(1, new Dictionary("hello", "hi"));

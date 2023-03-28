@@ -5,50 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b89dc35d-928b-4d85-9525-a0b29e81b990" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../ss1_chuyen_doi_tien_te/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ss1_chuyen_doi_tien_te/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thực hành/ss2_gradle/src/main/java/com/codegym/controller/EmailController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thực hành/ss2_gradle/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thực hành/ss2_gradle/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thực hành/ss2_gradle/src/main/webapp/WEB-INF/views/success.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thực hành/ss2_gradle/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thực hành/ss2_maven/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thực hành/ss2_maven/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thực hành/ss2_maven/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thực hành/ss2_maven/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thực hành/ss2_maven/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thực hành/ss2_maven/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thực hành/ss2_maven/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thực hành/ss2_maven/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thực hành/ss2_maven/src/main/java/com/codegym/controller/HomeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thực hành/ss2_maven/src/main/webapp/WEB-INF/configs/spring-config-mvc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thực hành/ss2_maven/src/main/webapp/WEB-INF/views/home.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thực hành/ss2_maven/src/main/webapp/WEB-INF/views/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thực hành/ss2_maven/src/main/webapp/WEB-INF/views/success.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thực hành/ss2_maven/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thực hành/ss2_maven/ss2_maven.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../config/html-thymeleaf/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../config/html-thymeleaf/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss1_chuyen_doi_tien_te/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../ss1_chuyen_doi_tien_te/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss1_chuyen_doi_tien_te/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../ss1_chuyen_doi_tien_te/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss1_chuyen_doi_tien_te/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../ss1_chuyen_doi_tien_te/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss1_chuyen_doi_tien_te/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/../ss1_chuyen_doi_tien_te/gradlew" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss1_chuyen_doi_tien_te/src/main/webapp/WEB-INF/views/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../ss1_chuyen_doi_tien_te/src/main/webapp/WEB-INF/views/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss1_chuyen_doi_tien_te/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ss1_chuyen_doi_tien_te/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss1_currency conversion/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../ss1_currency conversion/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss1_currency conversion/src/main/java/com/example/controller/PriceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ss1_currency conversion/src/main/java/com/example/controller/PriceController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss1_currency conversion/src/main/java/com/example/model/Price.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss1_currency conversion/src/main/java/com/example/service/PriceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ss1_currency conversion/src/main/java/com/example/service/impl/PriceService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/controller/DictionaryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/controller/DictionaryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/repository/DictionaryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/repository/impl/DictionaryRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/service/DictionaryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/service/impl/DictionaryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../thực hành/ss2_gradle/src/main/java/com/codegym/controller/EmailController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../thực hành/ss2_gradle/src/main/java/com/codegym/controller/EmailController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../thực hành/ss2_gradle/src/main/webapp/WEB-INF/dispatcher-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../thực hành/ss2_gradle/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../thực hành/ss2_gradle/src/main/webapp/WEB-INF/views/success.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../thực hành/ss2_gradle/src/main/webapp/WEB-INF/views/success.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../thực hành/ss2_maven/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../thực hành/ss2_maven/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../thực hành/ss2_maven/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../thực hành/ss2_maven/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../thực hành/ss2_maven/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../thực hành/ss2_maven/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,8 +50,18 @@
       </state>
     </system>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2NdOKlTrtrNVrMuNIGCPVZusp5n" />
   <component name="ProjectViewState">
@@ -89,11 +72,22 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/codegym/module4/ss1/ss1_ung_dung_tu_dien",
+    "last_opened_file_path": "D:/codegym/module4/ss1/ss1_dictionary",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "spring.configuration.checksum": "af4bbfa0c92b744497fb08ff16bbed11",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.example.controller" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -103,7 +97,11 @@
       <option name="presentableId" value="Default" />
       <updated>1679990430435</updated>
       <workItem from="1679990431615" duration="21000" />
+      <workItem from="1679990705577" duration="643000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
 </project>
