@@ -5,23 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b89dc35d-928b-4d85-9525-a0b29e81b990" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../config/html-thymeleaf/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../config/html-thymeleaf/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss1_currency conversion/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../ss1_currency conversion/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss1_currency conversion/src/main/java/com/example/controller/PriceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ss1_currency conversion/src/main/java/com/example/controller/PriceController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss1_currency conversion/src/main/java/com/example/model/Price.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss1_currency conversion/src/main/java/com/example/service/PriceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ss1_currency conversion/src/main/java/com/example/service/impl/PriceService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss2/ss2_list_spice_sandwich/src/main/java/com/example/SandwichController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss2/ss2_list_spice_sandwich/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss2/ss2_list_spice_sandwich/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss2/ss2_list_spice_sandwich/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/controller/DictionaryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/controller/DictionaryController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/repository/DictionaryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/repository/impl/DictionaryRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/service/DictionaryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/service/impl/DictionaryService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../thực hành/ss2_gradle/src/main/java/com/codegym/controller/EmailController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../thực hành/ss2_gradle/src/main/java/com/codegym/controller/EmailController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../thực hành/ss2_gradle/src/main/webapp/WEB-INF/dispatcher-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../thực hành/ss2_gradle/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../thực hành/ss2_gradle/src/main/webapp/WEB-INF/views/success.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../thực hành/ss2_gradle/src/main/webapp/WEB-INF/views/success.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../thực hành/ss2_maven/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../thực hành/ss2_maven/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../thực hành/ss2_maven/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../thực hành/ss2_maven/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../thực hành/ss2_maven/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../thực hành/ss2_maven/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,21 +56,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/codegym/module4/ss1/ss1_dictionary",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "spring.configuration.checksum": "af4bbfa0c92b744497fb08ff16bbed11",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/codegym/module4/ss1/ss1_dictionary&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;af4bbfa0c92b744497fb08ff16bbed11&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.example.controller" />
@@ -97,7 +85,9 @@
       <option name="presentableId" value="Default" />
       <updated>1679990430435</updated>
       <workItem from="1679990431615" duration="21000" />
-      <workItem from="1679990705577" duration="643000" />
+      <workItem from="1679990705577" duration="1139000" />
+      <workItem from="1679992121613" duration="167000" />
+      <workItem from="1679994158660" duration="86000" />
     </task>
     <servers />
   </component>
