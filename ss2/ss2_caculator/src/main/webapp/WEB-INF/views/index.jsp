@@ -10,10 +10,10 @@
     <h1>Caculator</h1>
     <div class="form-group">
         <label for="num1"></label>
-        <input type="text"
+        <input type="number"
                class="form-control" name="num1" id="num1" aria-describedby="helpId" placeholder="Input number 1">
         <label for="num2"></label>
-        <input type="text"
+        <input type="number"
                class="form-control" name="num2" id="num2" aria-describedby="helpId" placeholder="Input number 2">
     </div>
     <br>
@@ -29,8 +29,8 @@
     <h1>Result:${messageError}</h1>
 </c:if>
 
-<c:if test="${messageError == null && result != null}">
-    <h1>Result ${paramValues}: ${result}</h1>
+<c:if test="${messageError == null && result != 0}">
+    <h1>Result: ${result}</h1>
 </c:if>
 
 
