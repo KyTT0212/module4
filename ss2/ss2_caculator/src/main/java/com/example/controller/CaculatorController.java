@@ -14,21 +14,22 @@ import org.springframework.web.bind.annotation.RequestParam;
 public class CaculatorController {
     @Autowired
     private CaculatorService caculatorService;
+
     @RequestMapping("/")
-    public String from (){
+    public String from() {
         return "/index";
     }
 
     @PostMapping("caculator")
-    public String caculator1(@RequestParam double firstNumber, @RequestParam double twoNumber, @RequestParam String caculator, Model model){
+    public String caculator1(@RequestParam double firstNumber, @RequestParam double twoNumber, @RequestParam String caculator, Model model) {
         double result = 0;
-        try{
-            result = caculatorService.caculator(firstNumber,twoNumber,caculator);
+        try {
+            result = caculatorService.caculator(firstNumber, twoNumber, caculator);
         } catch (ArithmeticException arithmeticException) {
-            model.addAttribute("messageError","Unknown");
+            model.addAttribute("messageError", "Unknown");
         }
-        model.addAttribute("caculator",caculator);
-        model.addAttribute("result",result);
+        model.addAttribute("caculator", caculator);
+        model.addAttribute("result", result);
         return "/index";
     }
 }

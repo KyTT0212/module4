@@ -10,7 +10,7 @@ public class SettingRepository implements ISettingRepository {
 
     static {
         settings = new Settings("English",25,false,"Thor,King,Asgard");
-        String[] languages = new String[]("English","Vietnamese","Japanese","Chinese")
-
+        String[] languages = new String[]{"English","Vietnamese","Japanese","Chinese"};
+        Integer[] pageSize = new Integer[]{5,10,15,20,25,50,100};
     }
 }
