@@ -6,17 +6,17 @@ import org.springframework.stereotype.Service;
 @Service
 public class CaculatorService implements ICaculatorService {
     @Override
-    public Double caculator(double num1, double num2, String caculator){
+    public Double caculator(double firstNumber, double twoNumber, String caculator){
         switch (caculator){
             case "Addition(+)":
-                return num1+num2;
+                return firstNumber+twoNumber;
             case "Subtraction(-)":
-                return num1 - num2;
+                return firstNumber - twoNumber;
             case "Multiplication(*)":
-                return num1 * num2;
+                return firstNumber * twoNumber;
             case "Division(/)":
-                if (num2 != 0){
-                    return num1 / num2;
+                if (twoNumber != 0){
+                    return firstNumber / twoNumber;
                 }else {
                     throw new ArithmeticException();
                 }

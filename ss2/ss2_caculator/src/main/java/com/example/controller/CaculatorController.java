@@ -20,10 +20,10 @@ public class CaculatorController {
     }
 
     @PostMapping("caculator")
-    public String caculator1(@RequestParam double num1, @RequestParam double num2, @RequestParam String caculator, Model model){
+    public String caculator1(@RequestParam double firstNumber, @RequestParam double twoNumber, @RequestParam String caculator, Model model){
         double result = 0;
         try{
-            result = caculatorService.caculator(num1,num2,caculator);
+            result = caculatorService.caculator(firstNumber,twoNumber,caculator);
         } catch (ArithmeticException arithmeticException) {
             model.addAttribute("messageError","Unknown");
         }

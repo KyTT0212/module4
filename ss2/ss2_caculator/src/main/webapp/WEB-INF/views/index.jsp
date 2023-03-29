@@ -9,12 +9,12 @@
 <form action="caculator" method="post">
     <h1>Caculator</h1>
     <div class="form-group">
-        <label for="num1"></label>
+        <label for="firstNumber"></label>
         <input type="number"
-               class="form-control" name="num1" id="num1" aria-describedby="helpId" placeholder="Input number 1">
-        <label for="num2"></label>
+               class="form-control" name="firstNumber" id="firstNumber" aria-describedby="helpId" placeholder="Input number 1">
+        <label for="twoNumber"></label>
         <input type="number"
-               class="form-control" name="num2" id="num2" aria-describedby="helpId" placeholder="Input number 2">
+               class="form-control" name="twoNumber" id="twoNumber" aria-describedby="helpId" placeholder="Input number 2">
     </div>
     <br>
         <div>
