@@ -1,11 +1,17 @@
+<%--
+  Created by IntelliJ IDEA.
+  User: ACER
+  Date: 3/29/2023
+  Time: 1:42 PM
+  To change this template use File | Settings | File Templates.
+--%>
 <%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 <%@taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 <head>
-    <title>Trang chủ</title>
+    <title>Setting</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -13,35 +19,54 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+        .form-group {
+            display: flex;
+
+        }
+
+        h4 {
+            margin-right: 1em;
+        }
+    </style>
 </head>
 <body>
-<form action="settings">
-    <h1>Email Box</h1>
-    <table class="table">
-        <thead>
-        <tr>
-            <th>STT</th>
-            <th>Languages</th>
-            <th>Page Size</th>
-            <th>Spams filter</th>
-            <th>Signature</th>
-            <th>Update</th>
-        </tr>
-        </thead>
-        <tbody>
-        <c:forEach items="${emailBox}" var="emailBox" varStatus="loop">
-            <tr>
-                <td>${loop.count}</td>
-                <td>${emailBox.languages}</td>
-                <td>${emailBox.pageSize}</td>
-                <td>${emailBox.spamsFiller}</td>
-                <td>${emailBox.signature}</td>
-                <td><a href="update/${emailBox.id}">update</a></td>
-            </tr>
-        </c:forEach>
-        </tbody>
-    </table>
-</form>
+<form:form action="update" method="post" modelAttribute="emailBox">
+    <h1>Settings</h1>
+
+    <div class="form-group">
+        <h4>Languages</h4>
+        <form:select path="languages">
+            <form:options items="${getLanguages}"/>
+        </form:select>
+    </div>
+    <div class="form-group">
+        <h4>Page Size</h4>
+        <form:select path="pageSize">
+            <span>Show </span>
+            <form:options items="${getPageSize}"/>
+            <span> emails per page</span>
+        </form:select>
+    </div>
+    <div class="form-group">
+        <h4>SpamsFiller</h4>
+        <form:checkbox path="spamsFiller"/>
+            <span>Enable spams filter</span>
+    </div>
+    <div class="form-group">
+        <h4>Signature</h4>
+        <form:textarea path="signature"/>
+    </div>
+
+    <button type="submit">Update</button>
+    <button type="submit" disabled>Cancel</button>
+
+
+
+
+
+
+</form:form>
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
