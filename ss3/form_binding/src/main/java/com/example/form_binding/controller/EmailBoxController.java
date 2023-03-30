@@ -1,18 +1,16 @@
 package com.example.form_binding.controller;
 
 import com.example.form_binding.model.EmailBox;
-import com.example.form_binding.service.EmailBoxService;
+import com.example.form_binding.service.IEmailBoxService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.List;
-
 @Controller
 public class EmailBoxController {
     @Autowired
-    private EmailBoxService service;
+    private IEmailBoxService service;
     @RequestMapping({"/","trang-chu","index"})
     public String listEmail(Model model){
         model.addAttribute("emailBox",service.findAll());
@@ -29,7 +27,9 @@ public class EmailBoxController {
     }
 
     @PostMapping("update")
-    public String resultSettings(Model model){
-        model.addAttribute(@ModelAttribute EmailBox )
+    public String resultSettings(@ModelAttribute EmailBox emailBox, Model model){
+        service.update(emailBox);
+        model.addAttribute("emailBox",emailBox);
+        return "index";
     }
 }

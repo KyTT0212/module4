@@ -1,14 +1,14 @@
 package com.example.form_binding.repository.impl;
 
 import com.example.form_binding.model.EmailBox;
-import org.springframework.beans.factory.annotation.Autowired;
+import com.example.form_binding.repository.IEmailBoxRepository;
 import org.springframework.stereotype.Repository;
 
 import java.util.ArrayList;
 import java.util.List;
 
 @Repository
-public class EmailBoxRepository implements com.example.form_binding.repository.EmailBoxRepository {
+public class EmailBoxRepository implements IEmailBoxRepository {
     private static List<EmailBox> emailBox = new ArrayList<>();
     private String[] languages = new String[]{"English","Vietnamese","Japanese","Chinese"};
     private Integer[] pageSize = new Integer[]{5,10,15,20,25,50,100};
@@ -24,6 +24,15 @@ public class EmailBoxRepository implements com.example.form_binding.repository.E
 
     public Integer[] getPageSize() {
         return pageSize;
+    }
+
+    @Override
+    public void update(EmailBox emailBox) {
+        emailBox.setId(emailBox.getId());
+        emailBox.setLanguages(emailBox.getLanguages());
+        emailBox.setPageSize(emailBox.getPageSize());
+        emailBox.setSpamsFiller(emailBox.getSpamsFiller());
+        emailBox.setSignature(emailBox.getSignature());
     }
 
     @Override

@@ -1,16 +1,17 @@
 package com.example.form_binding.service.impl;
 
 import com.example.form_binding.model.EmailBox;
-import com.example.form_binding.repository.EmailBoxRepository;
+import com.example.form_binding.repository.IEmailBoxRepository;
+import com.example.form_binding.service.IEmailBoxService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
 
 @Service
-public class EmailBoxService implements com.example.form_binding.service.EmailBoxService {
+public class EmailBoxService implements IEmailBoxService {
     @Autowired
-    private EmailBoxRepository repository;
+    private IEmailBoxRepository repository;
 
     @Override
     public List<EmailBox> findAll() {
@@ -30,6 +31,11 @@ public class EmailBoxService implements com.example.form_binding.service.EmailBo
     @Override
     public Integer[] getPageSize() {
         return repository.getPageSize();
+    }
+
+    @Override
+    public void update(EmailBox emailBox) {
+        repository.update(emailBox);
     }
 
 }
