@@ -16,6 +16,16 @@
 <!--<div th:replace="~{/layout :: header}"></div>-->
 ------------------------------------------------------------------------------------------------------------------------------------
 <p><a th:href="@{/create}">Add new product</a></p>
+<form action="/trang-chu/">
+    <div class="form-group float-start w-30">
+        <input type="text"
+               class="form-control" name="name" aria-describedby="helpId" th:value="${name}"
+               placeholder="Nhập tên sản phẩm...">
+    </div>
+    <div class="float-start w-80">
+        <button type="submit" class="btn btn-primary">Tìm kiếm</button>
+    </div>
+</form>
 <table class="table">
     <thead>
     <tr>

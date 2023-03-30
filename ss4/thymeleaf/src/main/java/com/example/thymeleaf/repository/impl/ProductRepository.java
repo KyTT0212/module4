@@ -18,8 +18,17 @@ public class ProductRepository implements IProductRepository {
         productList.add(new Product(4,"Dâu",22.7,"màu baby","kỳ bedep"));
     }
     @Override
-    public List<Product> findAll() {
-        return productList;
+    public List<Product> findAll(String name) {
+        if (name == null) {
+            return productList;
+        }
+        List<Product> products = new ArrayList<>();
+        for (Product product : productList) {
+            if (product.getName().contains(name)) {
+                products.add(product);
+            }
+        }
+        return products;
     }
 
     @Override

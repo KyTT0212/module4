@@ -5,7 +5,7 @@ import com.example.thymeleaf.model.Product;
 import java.util.List;
 
 public interface IProductService {
-    List<Product> findAll();
+    List<Product> findAll(String name);
 
     Object save(Product product);
 
