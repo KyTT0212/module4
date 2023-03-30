@@ -35,12 +35,45 @@
         <td th:text="${product.producer}"></td>
         <td style="display: flex; justify-content: space-between;">
             <a th:href="@{/update/{id}(id=${product.id})}">Update</a>
-            <a th:href="@{/delete/{id}(id=${product.id})}">Delete</a>
+            <button type="button" th:attr="onclick=|deleteId('${product.id}','${product.name}')|"
+                    class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
+               Delete
+            </button>
             <a th:href="@{/detail/{id}(id=${product.id})}">Detail</a>
         </td>
     </tr>
     </tbody>
 </table>
+<!--  Modal xóa  <%-->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Xóa sản phẩm</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form action="/product/delete">
+                <div class="modal-body">
+                    <label for="deleteId"></label><input type="text" hidden id="deleteId" name="deleteId"
+                                                         value="${product.id}">
+                    Bạn có muốn xóa <span id="deleteName"
+                                          style="color: brown; font-weight: bold">${product.name}</span>
+                    ?
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Hủy bỏ</button>
+                    <button type="submit" class="btn btn-primary">Đồng ý</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<script>
+    function deleteId(id, name) {
+        document.getElementById("deleteId").value = id;
+        document.getElementById("deleteName").innerText = name;
+    }
+</script>
 ------------------------------------------------------------------------------------------------------------------------------------
 <!--<div th:replace="~{/layout :: footer}"></div>-->
 

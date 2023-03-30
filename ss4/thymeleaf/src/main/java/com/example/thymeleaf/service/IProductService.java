@@ -10,4 +10,6 @@ public interface IProductService {
     Object save(Product product);
 
     Product findById(int id);
+    void updateProduct(int id,Product product);
+    void deleteProduct (int id);
 }
