@@ -51,7 +51,7 @@
     <div class="form-group">
         <h4>SpamsFiller</h4>
         <form:checkbox path="spamsFiller"/>
-            <span>Enable spams filter</span>
+        <span>Enable spams filter</span>
     </div>
     <div class="form-group">
         <h4>Signature</h4>
@@ -60,10 +60,6 @@
 
     <button type="submit">Update</button>
     <button type="submit" disabled>Cancel</button>
-
-
-
-
 
 
 </form:form>
