@@ -17,9 +17,9 @@ public class ProductController {
     @Autowired
     private IProductService service;
 
-  @GetMapping("")
-    private String home(@RequestParam (required = false) String name, Model model) {
-      model.addAttribute("name",name);
+    @GetMapping("")
+    private String home(@RequestParam(required = false) String name, Model model) {
+        model.addAttribute("name", name);
         List<Product> products = service.findAll(name);
         model.addAttribute(products);
         return "view";
