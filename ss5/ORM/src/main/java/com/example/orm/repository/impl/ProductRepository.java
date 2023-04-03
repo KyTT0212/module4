@@ -13,7 +13,6 @@ public class ProductRepository implements IProductRepository {
 
     @Override
     public List<Product> findAll(String name) {
-//        List<Product> products = BaseRepository.entityManager.createQuery("select p from Product p", Product.class).getResultList();
         List<Product> products = BaseRepository.entityManager.createQuery("select p from Product p where name like concat('%', :name, '%')", Product.class).setParameter("name", name).getResultList();
         return products;
 
